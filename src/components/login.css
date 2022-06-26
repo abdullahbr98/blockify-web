@@ -1,0 +1,56 @@
+.SignUpButton{
+    background-color: #2F3C98 !important;
+    border-color: #2F3C98 !important;
+    border-radius: 20px !important;
+    width: 20vw !important;
+    height: 7vh !important;
+}
+
+.SignUpButtonGoogle{
+    background-color: white !important;
+    border-color: #2F3C98 !important;
+    border-radius: 20px !important;
+    width: 20vw !important;
+    height: 7vh !important;
+    color: black !important;
+}
+.SignUpButtonFacebook{
+    background-color: white !important;
+    border-color: #2F3C98 !important;
+    border-radius: 20px !important;
+    width: 20vw !important;
+    height: 7vh !important;
+    color: black !important;
+}
+
+.text-field{
+    width: 30vw;
+    margin-left: 8.5vw;
+    border-radius: 10% !important;
+}
+
+.text-input{
+    border-radius: 10px !important;
+    padding-top: 1.5vh !important;
+    padding-bottom: 1.5vh !important;
+}
+
+.buttonsGroup{
+    margin-left: 14.2vw;
+}
+
+.formPosition{
+    align-self: center;
+}
+
+.headingSignUp{
+    color:#2F3C98;
+    font-size:7vh;
+    font-weight: 500;
+}
+
+.signUpDesc{
+    color: #787A85;
+    font-size: 5vh !important;
+    font-weight: 500;
+}

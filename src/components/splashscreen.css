@@ -7,19 +7,19 @@
 }
 
 .registerButton{
-    height: 10vh;
-    border-radius: 12px;
-    background-color: #2F3C98;
-    border-color: #2F3C98;
-    width: 10vw;
+    height: 10vh !important;
+    border-radius: 12px !important;
+    background-color: #2F3C98 !important;
+    border-color: #2F3C98 !important;
+    width: 10vw !important;
 }
 
 .signInButton{
-    height: 10vh;
-    width: 10vw;
-    border-radius: 10px;
+    height: 10vh !important;
+    width: 10vw !important;
+    border-radius: 10px !important; 
 }
 .buttons{
-    align-self: center;
-    padding-left: 200px;
+    align-self: center !important;
+    padding-left: 200px !important;
 }
