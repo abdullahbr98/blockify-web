@@ -1,0 +1,44 @@
+input{
+    padding: 1vw !important;
+    text-align: center !important;
+    /* margin-left: 8.5vw !important; */
+    border-radius: 10px !important;
+}
+.connectMetamask{
+    padding-top: 1vw !important;
+    padding-bottom: 1vw !important;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+    background-color: #2F3C98 !important;
+    border-radius: 15px !important;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.sellerDiv{
+    width: 100% !important;
+    height: 100% !important;
+    align-self: center !important;
+    align-items: center !important;
+}
+
+.transButton{
+    padding-top: 0.75vw !important;
+    padding-bottom: 0.75vw !important;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+    background-color: #7c7f91 !important;
+    border-color: #7c7f91 !important;
+    border-radius: 10px !important;
+}
+
+.headingTransaction{
+    color:#2F3C98;
+    font-size:7vh !important;
+    font-weight: 500 !important;
+}
+
+.descriptionHeading{
+    color: #7c7f91;
+}
+

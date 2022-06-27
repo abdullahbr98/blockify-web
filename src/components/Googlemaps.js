@@ -10,7 +10,6 @@ import {
     Text,
 } from '@chakra-ui/react'
 import { FaLocationArrow, FaTimes } from 'react-icons/fa'
-
 import {
     useJsApiLoader,
     GoogleMap,
@@ -19,12 +18,13 @@ import {
     DirectionsRenderer,
 } from '@react-google-maps/api'
 import { useRef, useState } from 'react'
+import TopBar from './Topbar'
 
 const center = { lat: 31.48154863031394, lng: 74.30302482687031 }
 
 function Googlemaps() {
     const { isLoaded } = useJsApiLoader({
-        googleMapsApiKey: "",
+        googleMapsApiKey: "AIzaSyBblXSs8UAN1eKhw-_YaEzGQ4KzevT8jRs",
         libraries: ['places'],
     })
 
@@ -68,6 +68,7 @@ function Googlemaps() {
     }
 
     return (
+        <>
         <Flex
             position='relative'
             flexDirection='column'
@@ -146,6 +147,7 @@ function Googlemaps() {
                 </HStack>
             </Box>
         </Flex>
+        </>
     )
 }
 

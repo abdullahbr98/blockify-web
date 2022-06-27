@@ -15,8 +15,10 @@ export default function TopBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Maps</Nav.Link>
+                        <Nav.Link href="/maps">Maps</Nav.Link>
+                        
                     </Nav>
+                    <Nav.Link href="/" className='ms-auto text-light btn btn-secondary'>Log Out</Nav.Link>
                 </Navbar.Collapse>
             </Navbar>
         </>
